@@ -1,0 +1,29 @@
+.box{
+    width:1600px ;
+    height: 900px;
+background-image:  url(../images/grass.png),
+                    url(../images/house.png),
+                    url(../images/lamp.png),
+                    url(../images/donat.png),
+                    url(../images/image.png);
+background-repeat: repeat-x,
+                   no-repeat,
+                   repeat-x,
+                   repeat-y,
+                   repeat-y   ;
+background-size: 450px,
+                 600px,
+                 64px,
+                 50px,
+                 45px
+
+                 ;
+background-position: bottom,
+                     center,
+                     top,
+                     right,
+                     left;
+background-color: green ;
+
+outline: 1px solid red;
+}
